@@ -45,7 +45,7 @@ resource "docker_container" "reverse_proxy" {
   }
 
   volumes {
-    host_path      = "/home/moni/q/Assessment01/nginx/nginx.conf"  # Absolute path to the nginx.conf file
+    host_path      = "/home/moni/final/01assesment/nginx/nginx.conf"  # Absolute path to the nginx.conf file
     container_path = "/etc/nginx/nginx.conf"     # Target path inside the container
     read_only      = true
   }
