@@ -29,7 +29,7 @@ resource "docker_container" "frontend" {
   image = "01assesment-frontend:latest"
   ports {
     internal = 80
-    external = 8080
+    external = 8000
   }
   networks_advanced {
     name = docker_network.app_network.name
