@@ -15,4 +15,17 @@ This project demonstrates setting up a local infrastructure for deploying a cont
      - Pipeline
      - Terraform
 
+Terraform Infrastructure
+Navigate to the terraform directory
+cd terraform
+
+
+3.Docker Compose (Optional)
+Use Docker Compose to bring up the entire stack:
+
+docker-compose up --build
+Access the services:
+Frontend: http://localhost
+Backend: http://localhost/api
+
 
