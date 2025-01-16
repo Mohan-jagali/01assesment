@@ -14,7 +14,7 @@ resource "docker_network" "app_network" {
 
 resource "docker_container" "backend" {
   name  = "backend"
-  image = "assessment01-backend:latest"
+  image = "01assesment-backend:latest"
   ports {
     internal = 8282
     external = 8282
@@ -26,7 +26,7 @@ resource "docker_container" "backend" {
 
 resource "docker_container" "frontend" {
   name  = "frontend"
-  image = "assessment01-frontend:latest"
+  image = "01assesment-frontend:latest"
   ports {
     internal = 80
     external = 8080
