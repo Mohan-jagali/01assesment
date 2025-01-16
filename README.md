@@ -59,7 +59,7 @@ This project demonstrates setting up a local infrastructure for deploying a cont
      - Serves static content (e.g., index.html).
 
    - Backend:
-     - Accessible at http://localhost/api
+     - Accessible at http://localhost/api/
      - Responds with "Hello, World" 
 
 8. Troubleshooting
