@@ -54,4 +54,4 @@ resource "docker_container" "reverse_proxy" {
     name = docker_network.app_network.name
   }
 }
-
+.
