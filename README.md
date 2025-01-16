@@ -15,8 +15,8 @@ This project demonstrates setting up a local infrastructure for deploying a cont
      - Pipeline
      - Terraform
 
-3. Terraform Infrastructure
-Navigate to the terraform directory
+3. Terraform Infrastructure:
+Navigate to the terraform directory:
 cd terraform
 
 
