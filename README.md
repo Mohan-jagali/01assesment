@@ -27,7 +27,7 @@ This project demonstrates setting up a local infrastructure for deploying a cont
    - docker-compose up --build
    - Access the services:
      - Frontend: http://localhost
-     - Backend: http://localhost/api
+     - Backend: http://localhost/api/
 
 5. CI/CD with Jenkins
   - Configure Jenkins:
