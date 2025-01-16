@@ -18,7 +18,13 @@ This project demonstrates setting up a local infrastructure for deploying a cont
 Terraform Infrastructure
 Navigate to the terraform directory
 cd terraform
-
+Initialize Terraform:
+terraform init
+Apply the configuration
+This will provision:
+A Go backend container.
+A static frontend container.
+An NGINX reverse proxy container.
 
 3.Docker Compose (Optional)
 Use Docker Compose to bring up the entire stack:
