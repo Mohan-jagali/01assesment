@@ -9,12 +9,12 @@ pipeline {
         }
         stage('Build Backend') {
             steps {
-                sh 'docker build -t assessment01-backend:latest ./backend'
+                sh 'docker build -t 01assesment-backend:latest ./backend'
             }
         }
         stage('Build Frontend') {
             steps {
-                sh 'docker build -t assessment01-frontend:latest ./frontend'
+                sh 'docker build -t 01assesment-frontend:latest ./frontend'
             }
         }
         stage('Deploy with Terraform') {
