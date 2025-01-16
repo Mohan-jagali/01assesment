@@ -17,7 +17,7 @@ This project demonstrates setting up a local infrastructure for deploying a cont
 
        
 3. NGINX Configuration
-  -  Ensure the nginx.conf file 
+  -  Ensure the nginx.conf file resides in the right path
        - It routes traffic:
            - /api → Backend (Go application)
            - / → Frontend (static app) 
