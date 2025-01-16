@@ -69,7 +69,7 @@ This project demonstrates setting up a local infrastructure for deploying a cont
 
 9. Docker Image Not Found:
   - Ensure you build images are tagged correctly before applying Terraform
-  - check jenkins file image tag and terraform main file image tag both has same image tag before build
+  
 
 10. Nginx conflict:
     - if you encounter a problem related volume mounts make sure you have given the correct absolute path.
