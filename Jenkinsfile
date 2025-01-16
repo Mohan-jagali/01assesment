@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'main', url: 'https://github.com/Mohan-jagali/Assessment01'
+                git branch: 'main', url: 'https://github.com/Mohan-jagali/01assesment'
             }
         }
         stage('Build Backend') {
